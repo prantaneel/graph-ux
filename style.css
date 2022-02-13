@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  margin-bottom: 10px;
+}
+.lol {
+  /* margin: 5px; */
+  position: relative;
+  width: 1439px;
+  height: 720px;
+}
+.node-container {
+  margin: 0;
+  padding-bottom: 5px;
+  background-color: #f7f7f7;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.cell {
+  position: absolute;
+  background-color: #71c4c2;
+  margin: 1px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 2px;
+}
+.bd-footer a {
+  color: #495057;
+  text-decoration: none;
+}
+.row {
+  align-items: center;
+  justify-content: space-between;
+}
+#size-slider {
+  margin: 10px;
+}
+.github-icon {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
